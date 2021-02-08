@@ -20,3 +20,14 @@ button = tk.Button(text="Click Here",
                     width=20)
 button.pack()
 window.mainloop()
+
+#Window 3 Input Entry
+entry = tk.Entry(foreground="black",
+                background="blue",
+                width=50)
+entry.pack()
+window.mainloop()
+
+#Retrieval of entry currently not working, bug will be fixed later.
+answer = entry.get()
+print(answer)
